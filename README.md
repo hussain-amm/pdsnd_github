@@ -1,8 +1,8 @@
 ### Date created
-December ‎18, ‎2020 for the 
+December ‎18, ‎2020 for the readme file and bikeshare.py in this folder 
 
 ### Project Title
-explore US biekshare data
+explore US bikeshare data
 
 ### Description
 I used the US bikeshare data provided to calculate the data like the most frequent time of travel,the most popular start-end stations,trip duration and user status.
