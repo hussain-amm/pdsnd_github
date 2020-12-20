@@ -86,7 +86,7 @@ def time_stats(df):
     # TO DO: display the most common month
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] =df['Start Time'].dt.weekday_name
+    df['day_of_week'] =df['Start Time'].dt
     df['hour'] =df['Start Time'].dt.hour
     
     common_month = df['month'].mode()[0]
@@ -193,11 +193,14 @@ def user_stats(df):
 def raw_trip(df):
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
-    while True:
-        print(df.iloc[0:4])
-        start_loc += 5
-        view_desplay = input("Do you wish to continue?: ").lower()
-        break
+    if view_data.lower() != 'yes':
+            
+        while True:
+            print(df.iloc[0:4])
+            start_loc += 5
+            view_desplay = input("Do you wish to continue?: ").lower()
+            if view_desplay.lower() != 'yes':
+                break
 
 
 
