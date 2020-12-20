@@ -21,13 +21,5 @@ four files were used for the project
 2-chicago.csv for the chicago data
 3-new_york_city.csv for newyork city data
 4-washington.csv for washington data
-Include the files used
-=======
-four files were used for the project: 
-1-bikeshare.py for the project code 
-2-chicago.csv for the chicago data 
-3-new_york_city.csv for newyork city data 
-4-washington.csv for washington data
-
 ### Credits
 I credit udacity practices for the showing me how to program python to read csv files to prepare me for the task.
