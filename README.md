@@ -10,15 +10,6 @@ Include the date you created this project and README file.
 explore US bikeshare data
 
 ### Description
-
-I used the US bikeshare data provided to calculate the data like the most frequent time of travel,the most popular start-end stations,trip duration and user status.
-Most frequent time of travel is calculated by the month,day and hour.
-Most frequent station is calculated by the start station,end station and both station.
-user-types are calculated by the user gender if available,year of birth,and their ID.
-there is an option for the five rows of raw data if one is curios about it.
-Describe what your project is about and what it does
-
-=======
 I used the US bikeshare data provided to calculate the data like the most frequent time of travel,the most popular start-end stations,trip duration and user status. 
 Most frequent time of travel is calculated by the month,day and hour. Most frequent station is calculated by the start station,end station and both station. 
 user-types are calculated by the user gender if available,year of birth,and their ID. 
