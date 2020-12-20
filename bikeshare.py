@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -199,8 +199,7 @@ def raw_trip(df):
             print(df.iloc[0:4])
             start_loc += 5
             view_desplay = input("Do you wish to continue?: ").lower()
-            if view_desplay.lower() != 'yes':
-                break
+            break
 
 
 
